@@ -6,8 +6,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.input{
+  margin-bottom: 0.5rem;
+}
+/* navbar */
+.navbar{
+  margin-bottom: 3rem;
+}
+.loader {
+  position: fixed;  
+  top: 40%;
+  left: 40%;
 
+}
+.logout{
+  position: absolute;
+  right:0.4rem;
+}
+.home{
+  margin-left: 0.5rem;
+}
+/*login Form*/
+
+.login-form{
+  max-width: 20rem;
+  margin:auto;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.device{
+  padding: 0.4rem;
+  width: 200px;
+  height: 150;
+}
+.flex-container {
+  
+  margin: auto;
+  list-style: none;
+  display: flex;
+}
+.wrap    { 
+  flex-wrap: wrap;
+}  
+
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
 }
